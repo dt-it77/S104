@@ -1,0 +1,12 @@
+apply plugin: 'application'
+
+dependencies {
+    testCompile group: 'org.assertj', name: 'assertj-core', version: '3.19.0'
+    //testCompile group: 'junit', name: 'junit', version: '5.6.2' Update a versio 5
+    testCompile group: 'org.junit.jupiter', name: 'junit-jupiter-api', version: '5.8.1'
+    testCompile group: 'org.junit.jupiter', name: 'junit-jupiter-engine', version: '5.8.1'
+    testCompile group: 'org.junit.jupiter', name: 'junit-jupiter-params', version: '5.8.1'
+    testCompile group: 'org.hamcrest', name: 'hamcrest-all', version: '1.3'
+}
+
+mainClassName = 'org.itacademy.javatesting.junit.MainClass'
